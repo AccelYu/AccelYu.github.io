@@ -10,4 +10,4 @@
 
 ## 鸣谢
 
-本项目Fork自https://github.com/mzlogin/mzlogin.github.io！
+本项目Fork自https://github.com/mzlogin/mzlogin.github.io
