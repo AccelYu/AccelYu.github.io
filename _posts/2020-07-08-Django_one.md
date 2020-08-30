@@ -12,7 +12,7 @@ categories: [Python]
 django-admin startproject mywebsite  # 创建项目
 python3 manage.py runserver 0.0.0.0:8000  # 运行项目
 python3 manage.py startapp  # 创建应用
-
+sudo systemctl start mysqld.service  # 启动数据库
 python3 manage.py makemigrations  # 生成或更新迁移脚本
 python3 manage.py migrate  # 执行迁移脚本程序
 # 如果只想对部分app进行作用则执行如下命令
