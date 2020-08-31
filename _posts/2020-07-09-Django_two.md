@@ -150,7 +150,7 @@ class model(models.Model):
 ```
 ```html
 <form action="/test/page1" method="post" enctype="multipart/form-data">
-    { % csrf_token验证 %}
+    { % csrf_token %}
     <input type="file" name="file"><br>
     # 未加判空逻辑
     <input type="submit" value="提交">
