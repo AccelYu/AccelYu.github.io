@@ -110,7 +110,7 @@ def tcp_fork(sock, c):
     if pid == 0:
         sock.close()  # 子进程不需要sock
         handle(c)  # 具体处理客户端请求
-        os._exit(0)  # 客户端断开连接，则
+        os._exit(0)  # handle()结束意味着客户端断开连接，此时结束子进程
     else:
         c.close()  # 父进程不需要c
 
