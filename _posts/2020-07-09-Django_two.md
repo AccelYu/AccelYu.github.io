@@ -111,7 +111,7 @@ user = User.objects.raw('select * from myApp_user')
 from django.db import connection, transaction
 with connection.cursor() as cur:
     cur.execute('select name from myApp_user')
-    datas = cursor.fetchall()
+    datas = cur.fetchall()
     cur.execute('update myApp_user set name="1" where id=1')
     transaction.commit()
 ```
