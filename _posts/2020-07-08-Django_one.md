@@ -86,6 +86,7 @@ STATICFILES_DIRS = [
 <img src="http://127.0.0.1:8000/static/images/lena.jpg">
 { % load static %}
 <img src="{ % static 'images/lena.jpg' %}">
+# 注：以上方法在debug模式下运行，正式上线须将静态资源托管给nginx或其它服务器
 ```
 
 ## 模板template
