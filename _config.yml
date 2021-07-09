@@ -2,7 +2,7 @@
 #   Main Configs  #
 # ---------------- #
 baseurl:
-url: https://accelyu.xyz
+url: https://AccelYu.github.io
 date_format: "ordinal"
 title: Github Page
 subtitle: "YS's blog"
