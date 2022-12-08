@@ -4,7 +4,7 @@
 
 ## 访问
 
-**[在线访问](https://accelyu.xyz)**
+**[在线访问](https://accelyu.github.io)**
 
 
 ## 鸣谢
